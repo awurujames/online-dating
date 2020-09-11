@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 720px;
+    margin: auto;
+   
+}
+
+.container{
+    /*width: 960px;*/
+    margin: auto;
+    background-color: grey;
+
+}
+.container{
+    /*width: 960px;*/
+    margin: center;                                                                                                                                    background: white;
+
+}
+
+.container .firstbox{
+    background-color: lightyellow;
+    border: 10px solid yellow;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 15px;
+    width: 720px;
+}
+
+.container .firstbox .form-row{
+     /*display: inline-block;*/
+
+textarea{
+    text-align: right top;
+    width:360px;
+    height: 50px;
+
+
+}     
+
+label{
+    width: 180px;
+    display: inline-block;
+    width: auto;
+}
+
+label, input, textarea{
+    transition: width 500ms height 500ms transform 500ms;
+
+}
+
+label:hover, input:hover{
+    transform: scale(1,2);
+}
+
+
+
+
